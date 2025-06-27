@@ -1,0 +1,8 @@
+torch>=1.10
+torchvision>=0.11
+opencv-python>=4.5
+mediapipe>=0.10
+tqdm>=4.60
+pillow>=8.0
+mss>=6.1
+PyQt5>=5.15 

@@ -1,0 +1,15 @@
+train/
+test/
+output/
+*.pth
+*.png
+*.csv
+*.jpg
+*.jpeg
+*.bmp
+*.mp4
+*.avi
+*.mov
+*.mkv
+__pycache__/
+.DS_Store 
