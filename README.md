@@ -68,7 +68,7 @@ python train.py
 ## 摄像头实时表情识别
 运行：
 ```bash
-python inference.py
+python camera_recog.py
 ```
 摄像头画面中检测到人脸会实时显示表情类别。
 
@@ -80,7 +80,7 @@ python video_inference.py
 后台处理视频，终端显示进度，结果视频保存在 `output/` 目录。
 
 ## 屏幕内容实时分析与桌面叠加
-- `screen_overlay_inference.py`/`desktop_overlay.py` 支持屏幕内容实时表情分析，结果可直接叠加在桌面上。
+- 推荐使用 `desktop_overlay.py`，该脚本基于 PyQt5 实现全屏透明无边框窗口，支持不可交互的桌面实时表情叠加，检测结果直接覆盖在主屏幕上，适合演示和实际应用。
 
 ## 结果展示
 - 支持多目标（多个人脸）检测与识别。
