@@ -2,7 +2,6 @@ train/
 test/
 output/
 *.pth
-*.png
 *.csv
 *.jpg
 *.jpeg
