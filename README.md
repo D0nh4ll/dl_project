@@ -87,9 +87,4 @@ python video_inference.py
 - 训练过程和推理过程均有进度条和可视化。
 - 可视化脚本辅助分析数据分布和模型表现。
 
-## 致谢
-- [PyTorch](https://pytorch.org/)
-- [MediaPipe](https://mediapipe.dev/)
-- [OpenCV](https://opencv.org/)
-- [Albumentations](https://albumentations.ai/)
 
